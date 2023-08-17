@@ -1,4 +1,11 @@
 {
+    "trailingSlash": "auto",
+    "routes": [
+        {
+            "route": "/runtime/",
+            "backendRewrite": "/runtime/"
+        }
+    ],
     "navigationFallback": {
         "rewrite": "/index.html"
     }
